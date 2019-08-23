@@ -1,7 +1,7 @@
 {
   "name": "vue-pc-timepicker",
   "description": "timepicker时间选择器",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "ylp",
   "license": "MIT",
   "private": false,
