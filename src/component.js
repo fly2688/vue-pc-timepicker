@@ -1,6 +1,7 @@
 import {BaseModule} from './lib/BaseModule';
+import icons from './icons.json';
 
-export class Component extends BaseModule {
+class Component extends BaseModule {
   constructor() {
     super();
     this.setProps(['options']);
@@ -114,7 +115,8 @@ export class Component extends BaseModule {
       minute: '00',
       timeShow: '00:00',
       isShow: false,
-      success: null
+      success: null,
+      icons
     };
   }
 
@@ -125,3 +127,5 @@ export class Component extends BaseModule {
   onMount() {
   }
 }
+
+module.exports = Component;
