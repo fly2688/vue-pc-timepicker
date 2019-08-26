@@ -1,6 +1,6 @@
 import {BaseModule} from './lib/BaseModule';
 
-class Component extends BaseModule {
+export class Component extends BaseModule {
   constructor() {
     super();
     this.setProps(['options']);
@@ -125,5 +125,3 @@ class Component extends BaseModule {
   onMount() {
   }
 }
-
-module.exports = Component;

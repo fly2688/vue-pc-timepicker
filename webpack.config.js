@@ -6,7 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'index.js',
+    filename: 'timepicker.js',
+    library: 'timepicker',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
