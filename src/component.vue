@@ -3,16 +3,16 @@
     <section class="clearfix">
       <input @click="toggleShow" :placeholder="timeShow" class="time-input left pointer" readonly="readonly" type="number" />
       <section class="time-icon right">
-        <img src="./img/time.png" class="img-responsive" />
+        <img src="../img/time.png" class="img-responsive" />
       </section>
     </section>
     <section class="abs time-choose bg-white" v-if="isShow">
       <table cellpadding="0" cellspacing="0">
         <tbody>
           <tr>
-            <td><section @click="upHour" class="pointer tbtn"><img class="img-responsive" src="./img/up.png" /></section></td>
+            <td><section @click="upHour" class="pointer tbtn"><img class="img-responsive" src="../img/up.png" /></section></td>
             <td></td>
-            <td><section @click="upMinute" class="pointer tbtn"><img class="img-responsive" src="./img/up.png" /></section></td>
+            <td><section @click="upMinute" class="pointer tbtn"><img class="img-responsive" src="../img/up.png" /></section></td>
           </tr>
           <tr>
             <td><input type="number" @blur="isNum" v-model="hour" class="form-control input-box text-center" /></td>
@@ -20,9 +20,9 @@
             <td><input type="number" @blur="isNum" v-model="minute" class="form-control input-box text-center" /></td>
           </tr>
           <tr>
-            <td><section @click="cutHour" class="pointer tbtn"><img class="img-responsive" src="./img/down.png" /></section></td>
+            <td><section @click="cutHour" class="pointer tbtn"><img class="img-responsive" src="../img/down.png" /></section></td>
             <td></td>
-            <td><section @click="cutMinute" class="pointer tbtn"><img class="img-responsive" src="./img/down.png" /></section></td>
+            <td><section @click="cutMinute" class="pointer tbtn"><img class="img-responsive" src="../img/down.png" /></section></td>
           </tr>
         </tbody>
       </table>
