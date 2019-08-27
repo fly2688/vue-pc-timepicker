@@ -4,6 +4,7 @@ import icons from './icons.json';
 class Component extends BaseModule {
   constructor() {
     super();
+    this.setName('timePicker');
     this.setProps(['options']);
     this.setComponent({});
     this.setMethod({

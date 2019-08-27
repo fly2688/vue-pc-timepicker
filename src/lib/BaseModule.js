@@ -23,6 +23,11 @@ class BaseModule extends Context {
         this.components = {};
         this.computed = {};
         this.props = [];
+        this.name = '';
+    }
+
+    setName (val) {
+        this.name = val;
     }
 
     setProps (props) {
