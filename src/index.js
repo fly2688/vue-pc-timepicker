@@ -1,1 +1,3 @@
-module.exports = require('./component.vue');
+import timePicker from './component.vue';
+timePicker.install = Vue => Vue.component(timePicker.name, timePicker);
+export default timePicker;
